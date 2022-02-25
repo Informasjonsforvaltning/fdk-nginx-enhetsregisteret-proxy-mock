@@ -11,7 +11,7 @@ jobs:
     name: Call reusable workflow on push to main branch
     uses: Informasjonsforvaltning/workflows/.github/workflows/build-deploy.yaml@main
     with:
-      app_name: fdk-nginx-dataservices
+      app_name: fdk-nginx-enhetsregisteret-proxy-mock
       caller_sha: ${{ github.sha }}
       repo: ${{ github.repository }}
       actor: ${{ github.actor }}
