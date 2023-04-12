@@ -12,9 +12,6 @@ jobs:
     uses: Informasjonsforvaltning/workflows/.github/workflows/build-deploy.yaml@main
     with:
       app_name: fdk-nginx-enhetsregisteret-proxy-mock
-      caller_sha: ${{ github.sha }}
-      repo: ${{ github.repository }}
-      actor: ${{ github.actor }}
       environment: demo
       cluster: digdir-fdk-dev
     secrets:
