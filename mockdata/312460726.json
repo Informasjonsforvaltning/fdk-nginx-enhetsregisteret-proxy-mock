@@ -1,5 +1,7 @@
 {
   "navn": "KOMISK PRESIS BILLE IKS",
-  "organisasjonsform": "Interkommunalt selskap",
+  "organisasjonsform": {
+    "kode": "IKS"
+  },
   "organisasjonsnummer": "312460726"
 }
